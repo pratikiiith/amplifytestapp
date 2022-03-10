@@ -1,0 +1,7 @@
+type Destination @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  name: String
+  Budget: String
+  description: String
+  imageurl: String
+}
